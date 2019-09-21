@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Ejercicio 4 - Stephanie Pereyra</title>
+    <script src="Ejercicio4_.js"> </script>
+
+    <style>
+        form {
+            width: 250px;
+            height: 180px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="inicio">
+
+        <p> A continuación se mostrará un botón que sumará los dos valores ingresados</p>
+
+        <form id="form1">
+            <p>Valor 1:<br><input type="text" name="nmValue1" value="" id="txtValue1" class="formulario"></p>
+            <p>Valor 2:<br><input type="text" name="nmValue2" value="" id="txtValue2" class="formulario"></p>
+        </form>
+
+        <input id="btnSumar" type="button" value="Sumar" onclick="sumarDosValores();" />
+
+        <div id="resultado"></div>
+
+    </div>
+</body>
+</html>
